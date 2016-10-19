@@ -1,0 +1,140 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width" />
+    <title>HolyYak</title>
+       
+	<link rel="stylesheet" href="css/Yikyak.css"/>
+   
+        
+	<script src="jquery-2.1.0.js"></script>
+	<script src="yikyak.js"></script>
+</head> 
+   
+<body> 
+
+
+	<img  id= "title" src="./css/images/holytitle.png"/>
+   <div id="main">
+ <div id="nv">
+<ul id="nav_bar">
+		<li id="Hot_button" class="nav_bttn">
+ 		<form>
+			 <input type="button" id="hot" value="HOT" />
+	 	</form>
+ 	</li>
+
+	<li id="Cold_button"  class="nav_bttn">
+	 	<form>
+			  <input type="button" id="cold" value="COLD" />
+		 </form>
+	</li>	 
+		<li id="refresh"class="nav_bttn">
+		 	<form>
+		  <input type="button" id="refresh" value="FRESH"  />
+	 	</form>
+	 	</li>
+	  <li id="logout" value="logout"  class="nav_bttn">
+		<form>
+		  <input type="button" id="logout" value="LOGOUT"  />
+	 	</form>
+ 	</li>
+</ul>
+</div>
+	    <!-- Create div first for Login Form-->
+     <div id="login_page" class = "nav">
+	    <form action="" method="post">
+          <h3>Login to your HolyYak account.</h3>
+		  <input type="text" id="loginemail" placeholder="Email" />
+		  <input type="password" id="loginpassword" placeholder="Password" />
+		  <input type="button" id="login" value="Sign In" />
+		  <p ><a href="#" id = "forgot"> Forgot Password ?</a></p>
+		  <p >Don't have account? <a href="#" id="signup" class="signup">Sign up here</a></p>
+		</form>	
+	 </div>
+
+	 
+	 <!-- Create div second for Signup Form-->
+	 <div id="signup_page" class = "nav">
+	    <form action="" method="post" id="form">
+	      <h3>Create a Free Account</h3>
+		  <input type="text" id="name" placeholder="Full Name" />
+	      <input type="text" id="registeremail" placeholder="Email" />
+		  <input type="password" id="registerpassword" placeholder="Password" />
+		  <input type="button" id="register" value="Create your HolyYak account" />
+		  <p id="two">Already have an account? <a href="#" id="signin" class="signin">Sign in</a></p>
+		</form>  
+	 </div>
+
+	 <div id="forgotemail_page" class = "nav">
+	    <form action="" method="post" id="form">
+	      <h3>Enter your email to retrieve your password</h3>
+	      	  <input type="text" id="Forgotemail" placeholder="Email" />
+		  <input type="button" id="retrieve" value="Submit" />
+		   <p ><a href="#" id="back">Go back</a></p>
+		</form>  
+	 </div>
+	 
+  </div> 
+
+
+
+
+
+  <div id="YikYak">
+    <img  id= "rules" src="./css/images/rules.png"/>
+	   <form action="" method="post" id="postyak_form">
+		<input type="text" id="yak" placeholder="post a yak" />
+		<div id="postyak_button">
+
+		<input type="button" id="post_yak" value="POST" />
+		</div>
+  	  </form>
+
+
+<div id="yak_container">
+  	<table id="yaks" border="1">
+  		<tr>
+  			<td id='1'>test</td>
+  			<td class='vote' id='vote1'>test</td>
+  		</tr>
+  		<tr>
+  			<td id='2'>test</td>
+  			<td class='vote' id='vote2'>test</td>
+  		</tr>
+  		<tr>
+  			<td id='3'>test</td>
+  			<td class='vote' id='vote3'>test</td>
+  		</tr>
+  		<tr>
+  			<td id='4'>test</td>
+  			<td class='vote' id='vote4'>test</td>
+  		</tr>
+  		<tr>
+  			<td id='5'>ffff</td>
+  			<td class='vote' id='vote5'>f</td>
+  		</tr>
+  		<tr>
+  			<td id='6'>f</td>
+  			<td class='vote' id='vote6'>f</td>
+  		</tr>
+  		<tr>
+  			<td id='7'>f</td>
+  			<td class='vote' id='vote7'>f</td>
+  		</tr>
+  		<tr>
+  			<td id='8'>f</td>
+  			<td class='vote' id='vote8'>f</td>
+  		</tr>
+  		<tr>
+  			<td id='9'>f</td>
+  			<td class='vote' id='vote9'>f</td>
+  		</tr>
+  		<tr>
+  			<td id='10'>f</td>
+  			<td class='vote' id='vote10'>f</td>
+  		</tr>
+	</table>
+ </div>
+</body>
+</html>
+

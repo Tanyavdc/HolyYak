@@ -1,0 +1,244 @@
+body { 
+	background-image:url('./images/bg.png');
+	background-size:cover;
+	background-position:center;
+}
+
+a {
+    color: #f5f19d;
+}
+
+
+
+#title{
+	margin-left:50%
+	}
+.nav{
+	float: right;
+	width: 30%;
+	margin-right: 10%;
+	margin-top: 10%;
+
+}
+
+#nav_bar{
+	display: inline;
+float: right;
+margin-right: 50%;
+margin-top: 7%;
+}
+.nav_bttn{
+	float:left;
+
+}
+#rules{
+	width:100%;
+}
+#YikYak{ 
+width: 30%;
+margin-top: 7%;
+/* padding: 28px 25px; */
+display: none;
+position: absolute;
+/* left: 50%; */
+margin-left: 15%;
+top: 0px;
+float: left;
+}
+
+table{
+	width: 100%
+}
+
+td{
+	width: 20%;
+height: 10%;
+font-size: 150%;
+overflow: scroll;
+overflow-x: hidden;
+font-family: sans-serif;
+}
+
+.vote{
+	width: 3%;
+display: inline;
+	overflow:hidden;
+}
+
+.votedisplay {
+	float : left ;
+	
+}
+#yak_container {
+	
+width: 250%;
+height: 200%;
+overflow: scroll;
+margin-top: 50%;
+
+display: none;
+border: 1px solid grey;
+border-radius: 5;
+position: absolute;
+left: 0%;
+margin-left: 0;
+top: 0;
+}
+h3 {
+	margin-top: 0;
+	color:grey;
+}
+
+
+
+
+#ref {
+	width: 300px;
+	margin-top: 500px; 
+	padding: 28px 25px; 
+	background-color: white;
+	display:none; 
+	border: 1px solid black; 
+	border-radius: 5; 
+	position :absolute;
+	left: 0%; 
+	margin-left:200px; 
+	top:100px;
+    }
+
+
+input[type=text],[type=password] { 
+	padding: 7px;
+	width: 100%; 
+	height: 40px; 
+	margin-top: 15px; 
+	font-size: 18px;
+}
+
+input[type=button]{
+	background: #bdbebf;
+  background-image: -webkit-linear-gradient(top, #bdbebf, #d1d1d1);
+  background-image: -moz-linear-gradient(top, #bdbebf, #d1d1d1);
+  background-image: -ms-linear-gradient(top, #bdbebf, #d1d1d1);
+  background-image: -o-linear-gradient(top, #bdbebf, #d1d1d1);
+  background-image: linear-gradient(to bottom, #bdbebf, #d1d1d1);
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  margin-top: 10px;
+  font-family: Arial;
+  color: #757575;
+  font-size: 20px;
+  padding: 3px 20px 3px 20px;
+  text-decoration: none;
+}
+
+input[type=button]:hover{
+	 background: #f5f19d;
+  text-decoration: none;
+}
+
+
+
+
+p#two { 
+	margin-bottom:0;
+	color:grey
+}
+p{
+	color:grey;
+}
+@media screen and (min-device-width : 320px) and (max-device-width : 568px) {
+	
+body{
+	background-size:contain;
+	background-repeat:repeat;
+}
+
+
+td{
+}
+
+#YikYak{
+	margin-top: 20%;
+}
+
+#nv{
+	float:left;
+}
+
+#nav_bar{
+	padding-top:200px;
+	display:inline;
+	
+}
+
+.vote{
+	width:5%;
+	height:5%;
+}
+
+.votedisplay{
+	width: 1px;
+height: 1%;
+float: left;
+font-size:10px;
+}
+
+.nav_bttn{
+	size:auto
+}
+
+
+#logo{
+	height:60%;
+	width: 90%;
+	float:left;
+	
+}
+
+.nav{
+	height: 100%;
+	width: 50%;
+	float: right;
+	margin:right:20%
+}
+
+#rules{
+	width: 250%;
+}
+
+#title{
+	float:right;
+	width:100%;
+}
+
+#yak_container{
+	margin-top:150%;
+	margin-left:100%;
+	
+}
+input[type=text] ,[type=password]{
+	
+	width: 200px;
+height: 50px;
+
+}
+
+input[type=button]{
+	background: #bdbebf;
+  background-image: -webkit-linear-gradient(top, #bdbebf, #d1d1d1);
+  background-image: -moz-linear-gradient(top, #bdbebf, #d1d1d1);
+  background-image: -ms-linear-gradient(top, #bdbebf, #d1d1d1);
+  background-image: -o-linear-gradient(top, #bdbebf, #d1d1d1);
+  background-image: linear-gradient(to bottom, #bdbebf, #d1d1d1);
+  font-family: Arial;
+  color: #757575;
+  font-size: 10px;
+  text-decoration: none;
+}
+
+
+
+
+}
